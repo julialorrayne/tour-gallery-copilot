@@ -1,63 +1,71 @@
+/* Style for the tour card */
 .tour-card {
   background: linear-gradient(135deg, #ff9ce6, #d18cff); /* Pink to purple gradient */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  margin: 20px;
-  width: 400px; /* Increased card width */
-  color: white;
-  font-family: Arial, sans-serif;
-  text-align: center;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  overflow: hidden; /* Prevent content overflow */
+  margin: 20px; /* Add space around the card */
+  width: 400px; /* Set card width */
+  color: white; /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  text-align: center; /* Center-align text */
 }
 
+/* Style for the tour image */
 .tour-image {
-  width: 100%;
-  height: 250px; /* Adjusted image height for larger cards */
-  object-fit: cover;
+  width: 100%; /* Full width */
+  height: 250px; /* Fixed height */
+  object-fit: cover; /* Ensure the image covers the area */
 }
 
+/* Style for the tour details section */
 .tour-details {
-  padding: 20px; /* Added more padding for larger cards */
+  padding: 20px; /* Add padding inside the card */
 }
 
+/* Style for the tour name */
 .tour-details h3 {
-  font-size: 1.8rem; /* Increased font size */
-  margin: 10px 0;
+  font-size: 1.8rem; /* Larger font size */
+  margin: 10px 0; /* Add space around the text */
 }
 
+/* Style for the tour price */
 .tour-details h4 {
-  font-size: 1.4rem; /* Increased font size */
-  margin: 5px 0;
-  color: #ffe4f7; /* Light pink for price */
+  font-size: 1.4rem; /* Larger font size */
+  margin: 5px 0; /* Add space around the text */
+  color: #ffe4f7; /* Light pink color */
 }
 
+/* Style for the tour description */
 .tour-details p {
-  font-size: 1rem; /* Increased font size */
-  margin: 10px 0;
-  color: #fce4ff; /* Softer pink for text */
+  font-size: 1rem; /* Standard font size */
+  margin: 10px 0; /* Add space around the text */
+  color: #fce4ff; /* Softer pink color */
 }
 
+/* Style for the button */
 button {
   background-color: #ff6fcf; /* Bright pink */
-  border: none;
-  border-radius: 5px;
-  color: white;
-  padding: 12px 20px; /* Adjusted button size */
-  font-size: 1.1rem; /* Increased font size */
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  color: white; /* Text color */
+  padding: 12px 20px; /* Add padding */
+  font-size: 1.1rem; /* Larger font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
+/* Hover effect for the button */
 button:hover {
   background-color: #d14fb8; /* Darker pink on hover */
 }
 
-/* Center the cards in the gallery */
+/* Style for the gallery container */
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping of cards */
+  justify-content: center; /* Center cards horizontally */
+  align-items: center; /* Center cards vertically */
   gap: 20px; /* Add space between cards */
-  padding: 20px;
+  padding: 20px; /* Add padding around the gallery */
 }
