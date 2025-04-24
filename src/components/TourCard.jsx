@@ -1,5 +1,3 @@
-import './TourCard.css'
-
 function TourCard({ tour, removeTour }) {
   const { id, name, info, image, price } = tour
 

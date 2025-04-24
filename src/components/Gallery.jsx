@@ -1,5 +1,4 @@
 import TourCard from './TourCard'
-import './Gallery.css'
 
 function Gallery({ tours, setTours }) {
   const removeTour = (id) => {
