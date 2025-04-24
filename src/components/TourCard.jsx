@@ -1,3 +1,5 @@
+import React from 'react' // Ensure React is imported
+
 function TourCard({ tour, removeTour }) {
   const { id, name, info, image, price } = tour
 
